@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script src="https://kit.fontawesome.com/de30ca7aea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./docs-css/extra--large-media-query.css" media="screen and (min-width: 994px)" />
+    <link rel="stylesheet" href="./docs-css/large-media-query.css" media="screen and (max-width: 992px)" />
+    <link rel="stylesheet" href="./docs-css/medium-media-query.css" media="screen and (max-width: 768px)" />
+    <link rel="stylesheet" href="./docs-css/small-media-query.css" media="screen and (max-width: 600px)" />
+    <!-- Stylesheet for testing purposes -->
+    <!-- <link rel="stylesheet" href="./docs-css/style.css" /> -->
+    <title>Zippy UI</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="nav-box">
+            <div id="nav-section">
+                <div id="logo">
+                    <img id="main-logo" width="30px" height="30px" src="docs-assets/favicon.svg" alt="Logo" />
+                    <div>Zippy UI</div>
+                </div>
+
+                <div id="nav-links">
+                    <button class="no-bg hov">Home</button>
+                    <button class="no-bg hov">Documentation</button>
+                </div>
+            </div>
+
+            <!-- Burger for Navigation Bar (Mobile view) -->
+            <div id="nav-section-mobile">
+                <div id="burger-menu">
+                    <button class="no-bg" id="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Section for Navigation Bar (Mobile view) -->
+            <div id="mobile-section">
+                <ul class="">
+                    <li class="logo-top">
+                        <div id="logo-container">
+                            <div id="logo">
+                                <img id="main-logo" width="30px" height="30px" src="favicon.svg" alt="Logo" />
+                                <div>Zippy UI</div>
+                            </div>
+                            <button id="cancel" class="no-bg cancel-btn">X</button>
+                        </div>
+                    </li>
+                    <li class="nav-link-box">
+                        Home
+                    </li>
+                    <li class="nav-link-box">
+                        Documentation
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social links on Navigation Bar -->
+            <div id="social-links">
+                <button class="no-bg hov"><i class="fa-brands fa-github"></i></button>
+                <button class="no-bg hov"><i class="fa-brands fa-twitter"></i></button>
+                <button class="no-bg hov"><i class="fa-brands fa-linkedin"></i></button>
+                <button class="no-bg hov"><i class="fa-solid fa-circle-half-stroke"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Side bar with responsiveness -->
+    <aside id="side-container">
+        <div id="opening-bar">
+            <h2 class="bar-title">Components</h2>
+            <button id="dropdown-btn" class="no-bg down-arrow"><i class="fa-solid fa-angle-down"></i></button>
+        </div>
+        <ul id="dropdown-list">
+            <li>
+                Alerts
+            </li>
+            <li>
+                Avatar
+            </li>
+            <li>
+                Badges
+            </li>
+            <li>
+                Button
+            </li>
+            <li>
+                Cards
+            </li>
+            <li>
+                Form
+            </li>
+            <li>
+                Image
+            </li>
+            <li>
+                Input
+            </li>
+            <li>
+                Lists
+            </li>
+            <li>
+                Typography
+            </li>
+            <li>
+                Slider
+            </li>
+        </ul>
+    </aside>
+
+    <!-- #TODO: Add footer with social media links -->
+    <footer>
+    </footer>
+
+    <script src="docs-js/index.js" type="text/javascript"></script>
+</body>
+
+</html>
