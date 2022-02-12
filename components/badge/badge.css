@@ -9,8 +9,8 @@
 }
 
 .status-circle-lg {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   border: 2px solid var(--color-white);
   bottom: 0;
@@ -19,8 +19,8 @@
 }
 
 .status-circle-md {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   border-radius: 50%;
   border: 2px solid var(--color-white);
   bottom: 0;
@@ -29,8 +29,8 @@
 }
 
 .status-circle-sm {
-  width: 18px;
-  height: 18px;
+  width: 1.13rem;
+  height: 1.13rem;
   border-radius: 50%;
   border: 2px solid var(--color-white);
   bottom: 0;
@@ -39,8 +39,8 @@
 }
 
 .status-circle-xs {
-  width: 15px;
-  height: 15px;
+  width: 0.95rem;
+  height: 0.5rem;
   border-radius: 50%;
   border: 2px solid var(--color-white);
   bottom: 0;
