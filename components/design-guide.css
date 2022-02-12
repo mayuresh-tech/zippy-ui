@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.no-bg {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#inner-code {
+  font-size: 1rem;
+}
+
+:root {
+  --primary-color-darker: rgba(206, 122, 18);
+  --primary-color: rgba(226, 132, 19); /*#e28413*/
+  --primary-color-lighter: rgba(235, 143, 30);
+
+  --secondary-color: rgb(128, 5, 93); /*#80055d*/
+
+  --primary-text: rgb(46, 46, 46);
+  --secondary-text: rgb(73, 73, 73); /*#737373*/
+  --light-text: rgb(241, 241, 241);
+  --light-bg: rgb(252, 252, 252);
+  --gray-bg: #d4d4d4;
+
+  --alert-primary-text: #29438b;
+  --alert-primary-bg: #7FD2E6;
+  --alert-secondary-bg: #eaeaec;
+  --alert-secondary-text: #696b79;
+  --alert-success-bg: #84f1c9;
+  --alert-success-text: #1b7052;
+  --alert-danger-bg: #fcc5c5;
+  --alert-danger-text: #dc3545;
+  --alert-warning-text: #ff9204;
+  --alert-warning-bg: #ffe7c5;
+
+  --online-color: #1b7052;
+  --offline-color: #dc3545;
+
+  --overlay-color: rgba(88, 88, 88, 0.7);
+
+  --input-err: red;
+  --input-success: green;
+}

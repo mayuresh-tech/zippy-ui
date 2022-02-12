@@ -1,26 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap";
 
-* {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-html,
-body {
-  scroll-behavior: smooth;
-  height: 100vh;
-  background-color: var(--primary-font-color);
-  color: var(--primary-light-bg-color);
-}
-
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-  object-fit: cover;
-  object-fit: top center;
-}
-
+/* Root settings */
 :root {
   --primary-light-font-color: #c3073f;
   --primary-light-bg-color: #696b79;
@@ -31,21 +12,44 @@ img {
   --primary-light-border-color: #6f2232;
 }
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: var(--primary-font-color);
+  color: var(--primary-light-bg-color);
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  object-fit: top center;
+}
+/* End of Root settings */
+
+/* Button Settings */
 .no-bg {
   background: transparent;
   border: none;
   cursor: pointer;
 }
+/* End of Button Settings */
 
+/* Navigation Bar  */
 .nav-box {
   display: flex;
   flex-flow: row wrap;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   padding: 1rem 4rem;
-    z-index: 100;
-  position: fixed;
-    width: 100%;
+  z-index: 100;
+  width: 100%;
 }
 
 #nav-section {
@@ -54,10 +58,12 @@ img {
   flex-grow: 1;
 }
 
+/* Mobile section of Navigation bar */
 #nav-section-mobile,
 #mobile-section {
   display: none;
 }
+/* End Mobile section of Navigation bar */
 
 #logo {
   text-align: center;
@@ -96,14 +102,18 @@ img {
 #nav-links button:hover {
   color: var(--primary-light-font-color);
 }
+/* End of Navigation bar */
 
+/* Side layout for Components List */
 #side-container {
   height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 18%;
   z-index: 10;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  position: fixed;
-  top: 5.6rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #opening-bar .down-arrow {
@@ -124,14 +134,84 @@ img {
 }
 
 #side-container h2 {
-  margin-top: 1rem;
   padding: 0.8rem 2rem;
   cursor: default;
   font-size: 1.3rem;
   color: #4e4e50;
   font-weight: 500;
 }
+/* End of Side layout for Components List */
 
-section {
-    height: 100vh;
+/* Fixed button at the end for Scroll to Top */
+#scroll-btn {
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 1.25rem;
+  color: var(--primary-font-color);
+  background-color: #c3073f;
+  border-radius: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
 }
+/* End of Fixed button at the end for Scroll to Top */
+
+/* Documentation layout for all Components */
+#inner-code {
+  width: 82%;
+  height: 100vh;
+  position: absolute;
+  top: 5.5rem;
+  left: 18%;
+}
+
+#inner-code h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 1rem 2rem;
+  color: rgb(62, 65, 82);
+}
+
+#inner-code h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 1rem 2rem;
+  color: rgb(62, 65, 82);
+}
+
+#inner-code h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 1rem 2rem;
+  color: rgb(62, 65, 82);
+}
+
+#inner-code h5 {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 1rem 2rem;
+  color: rgb(62, 65, 82);
+  word-wrap: break-word;
+}
+
+/* Alert Section Design */
+.alert-section {
+  border-bottom: #1a1a1d 5px solid;
+  padding-bottom: 3rem;
+}
+
+.example-box {
+  margin: 1.5rem 2.5rem;
+  padding: 0.5rem;
+  border: #e6e6e6 2px solid;
+}
+
+.code-example {
+  max-width: 100%;
+  max-height: 800px;
+  margin: 1rem 4rem;
+  margin-bottom: 4rem;
+}
+/* End of Alert Section Design */

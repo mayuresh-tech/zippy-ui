@@ -11,8 +11,13 @@
     <link rel="stylesheet" href="./docs-css/large-media-query.css" media="screen and (max-width: 992px)" />
     <link rel="stylesheet" href="./docs-css/medium-media-query.css" media="screen and (max-width: 768px)" />
     <link rel="stylesheet" href="./docs-css/small-media-query.css" media="screen and (max-width: 600px)" />
+
+    <!-- Components Stylesheets -->
+    <link rel="stylesheet" href="../components/alert/alert.css" />
+
     <!-- Stylesheet for testing purposes -->
     <!-- <link rel="stylesheet" href="./docs-css/style.css" /> -->
+
     <title>Zippy UI</title>
 </head>
 
@@ -52,7 +57,7 @@
                                 <img id="main-logo" width="30px" height="30px" src="favicon.svg" alt="Logo" />
                                 <div>Zippy UI</div>
                             </div>
-                            <button id="cancel" class="no-bg cancel-btn">X</button>
+                            <button id="cancel" class="no-bg cancel-btn"><i class="fa-solid fa-xmark"></i></button>
                         </div>
                     </li>
                     <li class="nav-link-box">
@@ -75,50 +80,136 @@
     </header>
 
     <!-- Side bar with responsiveness -->
-    <aside id="side-container">
-        <div id="opening-bar">
-            <h2 class="bar-title">Components</h2>
-            <button id="dropdown-btn" class="no-bg down-arrow"><i class="fa-solid fa-angle-down"></i></button>
-        </div>
-        <ul id="dropdown-list">
-            <li>
-                Alerts
-            </li>
-            <li>
-                Avatar
-            </li>
-            <li>
-                Badges
-            </li>
-            <li>
-                Button
-            </li>
-            <li>
-                Cards
-            </li>
-            <li>
-                Form
-            </li>
-            <li>
-                Image
-            </li>
-            <li>
-                Input
-            </li>
-            <li>
-                Lists
-            </li>
-            <li>
-                Typography
-            </li>
-            <li>
-                Slider
-            </li>
-        </ul>
-    </aside>
+    <section>
+        <aside id="side-container">
+            <div id="opening-bar">
+                <h2 class="bar-title">Components</h2>
+                <button id="dropdown-btn" class="no-bg down-arrow"><i class="fa-solid fa-angle-down"></i></button>
+                <ul id="dropdown-list">
+                    <li>
+                        Alerts
+                    </li>
+                    <li>
+                        Avatar
+                    </li>
+                    <li>
+                        Badges
+                    </li>
+                    <li>
+                        Button
+                    </li>
+                    <li>
+                        Cards
+                    </li>
+                    <li>
+                        Form
+                    </li>
+                    <li>
+                        Image
+                    </li>
+                    <li>
+                        Input
+                    </li>
+                    <li>
+                        Lists
+                    </li>
+                    <li>
+                        Typography
+                    </li>
+                    <li>
+                        Slider
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <section id="inner-code">
+            <section id="alert-section">
+                <h1>Alerts</h1>
+                <h3>Alerts are used to attract user's attention for important information without interrupting the
+                    user's flow.</h3>
+                <h2>Example of Alert Bar without Close button</h2>
+                <h5>Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary
+                    alert.
+                    To use this alert just use class name alert-box and also add class according to alert type-
+                    alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
+                    alert-primary").
+                    You can copy html part from below code snippet.</h5>
+                <div class="example-box">
+                    <div class="alert-box primary-alert">
+                        A basic alert with text link.<a class="text-link">Check out!</a>
+                    </div>
+                    <div class="alert-box secondary-alert">
+                        A secondary alert example!!
+                    </div>
+                    <div class="alert-box success-alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z" />
+                        </svg> A success alert example!!
+                    </div>
+                    <div class="alert-box danger-alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z" />
+                        </svg> A danger alert example!!
+                    </div>
+                    <div class="alert-box warning-alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z" />
+                        </svg>A warning alert example!!
+                    </div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=htmlmixed&width=920.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520primary-alert%2522%253E%250A%2520%2520A%2520basic%2520alert%2520with%2520text%2520link.%253Ca%2520class%253D%2522text-link%2522%253ECheck%2520out%21%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520secondary-alert%2522%253E%250A%2520%2520A%2520secondary%2520alert%2520example%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520success-alert%2522%253E%250A%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520d%253D%2522M0%2520256C0%2520114.6%2520114.6%25200%2520256%25200C397.4%25200%2520512%2520114.6%2520512%2520256C512%2520397.4%2520397.4%2520512%2520256%2520512C114.6%2520512%25200%2520397.4%25200%2520256zM371.8%2520211.8C382.7%2520200.9%2520382.7%2520183.1%2520371.8%2520172.2C360.9%2520161.3%2520343.1%2520161.3%2520332.2%2520172.2L224%2520280.4L179.8%2520236.2C168.9%2520225.3%2520151.1%2520225.3%2520140.2%2520236.2C129.3%2520247.1%2520129.3%2520264.9%2520140.2%2520275.8L204.2%2520339.8C215.1%2520350.7%2520232.9%2520350.7%2520243.8%2520339.8L371.8%2520211.8z%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fsvg%253E%250A%2520%2520A%2520success%2520alert%2520example%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520danger-alert%2522%253E%250A%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520d%253D%2522M506.3%2520417l-213.3-364c-16.33-28-57.54-28-73.98%25200l-213.2%2520364C-10.59%2520444.9%25209.849%2520480%252042.74%2520480h426.6C502.1%2520480%2520522.6%2520445%2520506.3%2520417zM232%2520168c0-13.25%252010.75-24%252024-24S280%2520154.8%2520280%2520168v128c0%252013.25-10.75%252024-23.1%252024S232%2520309.3%2520232%2520296V168zM256%2520416c-17.36%25200-31.44-14.08-31.44-31.44c0-17.36%252014.07-31.44%252031.44-31.44s31.44%252014.08%252031.44%252031.44C287.4%2520401.9%2520273.4%2520416%2520256%2520416z%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fsvg%253E%250A%2520%2520A%2520danger%2520alert%2520example%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520warning-alert%2522%253E%250A%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520d%253D%2522M506.3%2520417l-213.3-364c-16.33-28-57.54-28-73.98%25200l-213.2%2520364C-10.59%2520444.9%25209.849%2520480%252042.74%2520480h426.6C502.1%2520480%2520522.6%2520445%2520506.3%2520417zM232%2520168c0-13.25%252010.75-24%252024-24S280%2520154.8%2520280%2520168v128c0%252013.25-10.75%252024-23.1%252024S232%2520309.3%2520232%2520296V168zM256%2520416c-17.36%25200-31.44-14.08-31.44-31.44c0-17.36%252014.07-31.44%252031.44-31.44s31.44%252014.08%252031.44%252031.44C287.4%2520401.9%2520273.4%2520416%2520256%2520416z%2522%250A%2520%2520%2520%2520%252F%253E%253C%252Fsvg%250A%2520%2520%253EA%2520warning%2520alert%2520example%21%21%250A%253C%252Fdiv%253E%250A"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Example of Alert Bar with Close button</h2>
+                <h5>Alert can have cross icon to close the alert. Check out html and vanilla JS code below.</h5>
+                <div class="example-box">
+                    <div class="alert-box warning-alert" id="close-alert">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z" />
+                            </svg>A warning alert example!!
+                        </div>
+                        <button class="no-bg" id="close-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path
+                                    d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=htmlmixed&width=920.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520warning-alert%2522%2520id%253D%2522close-alert%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M506.3%2520417l-213.3-364c-16.33-28-57.54-28-73.98%25200l-213.2%2520364C-10.59%2520444.9%25209.849%2520480%252042.74%2520480h426.6C502.1%2520480%2520522.6%2520445%2520506.3%2520417zM232%2520168c0-13.25%252010.75-24%252024-24S280%2520154.8%2520280%2520168v128c0%252013.25-10.75%252024-23.1%252024S232%2520309.3%2520232%2520296V168zM256%2520416c-17.36%25200-31.44-14.08-31.44-31.44c0-17.36%252014.07-31.44%252031.44-31.44s31.44%252014.08%252031.44%252031.44C287.4%2520401.9%2520273.4%2520416%2520256%2520416z%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520A%2520warning%2520alert%2520example%21%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522no-bg%2522%2520id%253D%2522close-btn%2522%253E%250A%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520320%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M310.6%2520361.4c12.5%252012.5%252012.5%252032.75%25200%252045.25C304.4%2520412.9%2520296.2%2520416%2520288%2520416s-16.38-3.125-22.62-9.375L160%2520301.3L54.63%2520406.6C48.38%2520412.9%252040.19%2520416%252032%2520416S15.63%2520412.9%25209.375%2520406.6c-12.5-12.5-12.5-32.75%25200-45.25l105.4-105.4L9.375%2520150.6c-12.5-12.5-12.5-32.75%25200-45.25s32.75-12.5%252045.25%25200L160%2520210.8l105.4-105.4c12.5-12.5%252032.75-12.5%252045.25%25200s12.5%252032.75%25200%252045.25l-105.4%2520105.4L310.6%2520361.4z%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>JavaScript</h2>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=javascript&width=920.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=1x&wm=false&code=var%2520closeBtnAlert%2520%253D%2520document.getElementById%28%2522close-btn%2522%29%253B%250Avar%2520closeAlert%2520%253D%2520document.getElementById%28%2522close-alert%2522%29%253B%250A%250AcloseBtnAlert.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520closeAlert.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%29"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+        </section>
+
+    </section>
 
     <!-- #TODO: Add footer with social media links -->
     <footer>
+        <div id="scroll-btn">
+            <button class="no-bg"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
     </footer>
 
     <script src="docs-js/index.js" type="text/javascript"></script>
