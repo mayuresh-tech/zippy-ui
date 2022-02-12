@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./docs-css/small-media-query.css" media="screen and (max-width: 600px)" />
 
     <!-- Components Stylesheets -->
-    <link rel="stylesheet" href="../components/alert/alert.css" />
+    <link rel="stylesheet" href="../components/zippy-ui.css" />
 
     <!-- Stylesheet for testing purposes -->
     <!-- <link rel="stylesheet" href="./docs-css/style.css" /> -->
@@ -201,8 +201,61 @@
                     </iframe>
                 </div>
             </section>
-        </section>
+            <section id="avatar-section">
+                <h1>Avatar</h1>
+                <h3>Avatar can be used to show user's profile picture on profile information page, on navigation bar, in
+                    blogs grid items.</h3>
+                <h2>Example of Image Avatar</h2>
+                <h5>Avatar is available in 4 different sizes. You can use image in Avatar. You need to include class
+                    avatar and for size add class according to size avatar-lg-size, avatar-md-size, avatar-sm-size,
+                    avatar-xs-size (e.g. class="avatar avatar-lg-size")
+                </h5>
+                <h5>Don't forget to add Responsive Image class names for img element. </h5>
+                <div class="example-box">
+                    <div class="avatar">
+                        <img class="avatar-image-lg" src="../components/assets/avatar2.jpg">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-image-md" src="../components/assets/avatar3.jpg">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-image-sm" src="../components/assets/avatar1.jpg">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-image-xs" src="../components/assets/avatar4.jpg">
+                    </div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=javascript&width=920.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-lg%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar2.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-md%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar3.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-sm%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar1.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-xs%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar4.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Example of Text Avatar</h2>
+                <h5>You can use initial letters of user in Avatar as well. You need to include class avatar-text along
+                    with avatar and size class. (e.g. class="avatar avatar-lg-size avatar-text")</h5>
+                <div class="example-box no-inline">
+                    <div class="avatar avatar-text avatar-text-lg" role="img">MM</div>
+                    <div class="avatar avatar-text avatar-text-md" role="img">MM</div>
+                    <div class="avatar avatar-text avatar-text-sm" role="img">MM</div>
+                    <div class="avatar avatar-text avatar-text-xs" role="img">MM</div>
+                </div>
+            </section>
+            <section id="badge-section">
+                <h1>Badge</h1>
+                <h3>Badges are being used to display a notification count or status information</h3>
+                <h2>Example of Status Badge</h2>
+                <h5>We have 2 types of status badges that can be integrated with Avatars. You can show colors to show
+                    the online status of user. And to show cart or notification count, you can use number badge. Check
+                    code below to copy the html part as is.</h5>
+                <div class="example-box">
+                    <div class="status-badge-container ">
 
+                    </div>
+                </div>
+            </section>
+        </section>
     </section>
 
     <!-- #TODO: Add footer with social media links -->

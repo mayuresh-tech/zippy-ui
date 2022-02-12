@@ -160,10 +160,6 @@ button#burger {
   background-color: #e6e6e6;
 }
 
-section {
-  height: 100vh;
-}
-
 #opening-bar {
   display: flex;
   flex-flow: row wrap;
@@ -282,4 +278,26 @@ section {
 }
 /* End of Alert Section Design */
 
+/* Avatar Section Design */
+.example-box .avatar {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content:center;
+  align-items: center;
+}
+
+.example-box.no-inline {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content:center;
+  align-items: center;
+}
+
+.div.example-box:nth-child(6) {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* End of Avatar Section Design */
 

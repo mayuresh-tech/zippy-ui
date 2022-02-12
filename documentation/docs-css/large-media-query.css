@@ -278,3 +278,22 @@ button#burger {
   margin-bottom: 4rem;
 }
 /* End of Alert Section Design */
+
+/* Avatar Section Design */
+.example-box .avatar {
+  display: inline;
+}
+
+.example-box.no-inline {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.div.example-box:nth-child(6) {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* End of Avatar Section Design */
