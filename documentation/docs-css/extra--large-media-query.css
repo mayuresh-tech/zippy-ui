@@ -106,14 +106,18 @@ img {
 
 /* Side layout for Components List */
 #side-container {
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  left: 0;
+  height: 500vh;
+  position: absolute;
   width: 18%;
   z-index: 10;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#opening-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #opening-bar .down-arrow {
@@ -160,7 +164,6 @@ img {
 /* Documentation layout for all Components */
 #inner-code {
   width: 82%;
-  height: 100vh;
   position: absolute;
   top: 5.5rem;
   left: 18%;

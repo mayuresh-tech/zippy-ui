@@ -3,3 +3,89 @@
 * {
   box-sizing: border-box;
 }
+
+.avatar {
+  position: relative;
+}
+
+.status-circle-lg {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid white;
+  bottom: 0;
+  right: 22%;
+  position: absolute;
+}
+
+.status-circle-md {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  bottom: 0;
+  right: 22%;
+  position: absolute;
+}
+
+.status-circle-sm {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid white;
+  bottom: 0;
+  right: 15%;
+  position: absolute;
+}
+
+.status-circle-xs {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid white;
+  bottom: 0;
+  right: 7%;
+  position: absolute;
+}
+
+.status-online {
+  background-color: var(--online-color);
+}
+
+.status-offline {
+  background-color: var(--offline-color);
+}
+
+.status-away {
+  background-color: var(--away-color);
+}
+
+.status-busy {
+  background-color: var(--busy-color);
+}
+
+.badge-container {
+  position: relative;
+}
+
+.badge-container svg {
+  margin: 1.7rem 1.5rem 1rem 1rem;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.badge {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0.2rem;
+  left: 2.2rem;
+  font-size: 1rem;
+  background: var(--text-badge-color);
+  color: var(--light-text);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}

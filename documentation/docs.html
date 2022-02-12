@@ -241,6 +241,13 @@
                     <div class="avatar avatar-text avatar-text-sm" role="img">MM</div>
                     <div class="avatar avatar-text avatar-text-xs" role="img">MM</div>
                 </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=javascript&width=920.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-text-lg%2522%2520role%253D%2522img%2522%253EMM%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-text-md%2522%2520role%253D%2522img%2522%253EMM%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-text-sm%2522%2520role%253D%2522img%2522%253EMM%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-text-xs%2522%2520role%253D%2522img%2522%253EMM%253C%252Fdiv%253E"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </section>
             <section id="badge-section">
                 <h1>Badge</h1>
@@ -249,10 +256,41 @@
                 <h5>We have 2 types of status badges that can be integrated with Avatars. You can show colors to show
                     the online status of user. And to show cart or notification count, you can use number badge. Check
                     code below to copy the html part as is.</h5>
-                <div class="example-box">
-                    <div class="status-badge-container ">
-
+                <div class="example-box no-inline">
+                    <div class="avatar">
+                        <img class="avatar-image-lg" src="../components/assets/avatar2.jpg">
+                        <span class="status-circle-lg status-online"></span>
                     </div>
+                    <div class="avatar">
+                        <img class="avatar-image-lg" src="../components/assets/avatar3.jpg">
+                        <span class="status-circle-lg status-away"></span>
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-image-md" src="../components/assets/avatar1.jpg">
+                        <span class="status-circle-md status-offline"></span>
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-image-sm" src="../components/assets/avatar4.jpg">
+                        <span class="status-circle-sm status-busy"></span>
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-image-xs" src="../components/assets/avatar1.jpg">
+                        <span class="status-circle-xs status-online"></span>
+                    </div>
+                    <div class="badge-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path
+                                d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z" />
+                        </svg>
+                        <span class="badge">25</span>
+                    </div>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=javascript&width=920.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-lg%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar2.jpg%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522status-circle-lg%2520status-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-lg%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar3.jpg%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522status-circle-lg%2520status-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-md%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar1.jpg%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522status-circle-md%2520status-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-sm%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar4.jpg%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522status-circle-sm%2520status-busy%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar-image-xs%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Favatar1.jpg%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522status-circle-xs%2520status-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </section>
         </section>
