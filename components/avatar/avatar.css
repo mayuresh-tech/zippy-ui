@@ -9,8 +9,8 @@
   block-size: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  height: 160px;
-  width: 160px;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
 }
 
@@ -19,8 +19,8 @@
   block-size: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  height: 120px;
-  width: 120px;
+  height: 7.5rem;
+  width: 7.5rem;
   border-radius: 50%;
 }
 
@@ -29,8 +29,8 @@
   block-size: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  height: 80px;
-  width: 80px;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
 }
 
@@ -39,8 +39,8 @@
   block-size: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  height: 50px;
-  width: 50px;
+  height: 3.13rem;
+  width: 3.13rem;
   border-radius: 50%;
 }
 

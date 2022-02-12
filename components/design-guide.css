@@ -53,6 +53,8 @@
   --away-color: #ff9204;
   --offline-color: #696b79;
 
+  --color-white: #fff;
+
   --overlay-color: rgba(88, 88, 88, 0.7);
 
   --input-err: red;
