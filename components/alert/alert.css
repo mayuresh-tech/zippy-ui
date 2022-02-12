@@ -1,0 +1,68 @@
+@import "../design-guide.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.alert-box {
+  padding: 1.2rem 1.4rem;
+  max-width: 100rem;
+  display: flex;
+  margin: 0.8rem;
+  border-radius: 0.4rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.alert-box svg {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.primary-alert {
+  color: var(--alert-primary-text);
+  background-color: var(--alert-primary-bg);
+}
+
+.secondary-alert {
+  color: var(--alert-secondary-text);
+  background-color: var(--alert-secondary-bg);
+}
+
+.success-alert {
+  color: var(--alert-success-text);
+  background-color: var(--alert-success-bg);
+  fill: var(--alert-success-text);
+}
+
+.danger-alert {
+  color: var(--alert-danger-text);
+  background-color: var(--alert-danger-bg);
+  fill: var(--alert-danger-text);
+}
+
+.warning-alert {
+  color: var(--alert-warning-text);
+  background-color: var(--alert-warning-bg);
+  fill: var(--alert-warning-text);
+}
+
+#close-alert {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.text-link {
+    cursor: pointer;
+    margin-left: 0.3rem;
+    text-decoration: underline;
+}
+
+.text-link:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+    margin-left: 0.3rem;
+    text-decoration: underline;
+}

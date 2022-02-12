@@ -3,7 +3,9 @@ var mobileSec = document.getElementById("mobile-section");
 var cancelBtn = document.getElementById("cancel");
 var dropDownBtn = document.getElementById("dropdown-btn");
 var dropDownList = document.getElementById("dropdown-list");
-var sideContainer = document.getElementById("side-container");
+var scrollToTopBtn = document.getElementById("scroll-btn");
+var closeBtnAlert = document.getElementById("close-btn");
+var closeAlert = document.getElementById("close-alert");
 
 let dropdownListExpanded = false;
 
@@ -28,8 +30,17 @@ dropDownBtn.addEventListener("click", () => {
     dropDownList.style.display = "none";
   }
   else {
+    window.scrollTo(0, 0);
     dropDownBtn.classList.add("upside-btn");
     dropdownListExpanded = true;
     dropDownList.style.display = "block";
   }
+});
+
+scrollToTopBtn.addEventListener("click", () => {
+  window.scrollTo(0, 0);
+});
+
+closeBtnAlert.addEventListener("click", () => {
+  closeAlert.style.display = "none";
 });

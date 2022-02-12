@@ -1,0 +1,94 @@
+@import "../design-guide.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.avatar-image-lg {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.avatar-image-md {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+}
+
+.avatar-image-sm {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.avatar-image-xs {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  height: 3.13rem;
+  width: 3.13rem;
+  border-radius: 50%;
+}
+
+.avatar-text.avatar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+}
+
+.avatar-text {
+  border-radius: 50%;
+  text-align: center;
+}
+
+.avatar-text-lg {
+  font-size: 3rem;
+  background-color: var(--text-badge-color);
+  color: var(--light-text);
+  height: 160px;
+  width: 160px;
+}
+
+.avatar-text-md {
+  background-color: var(--text-badge-color);
+  color: var(--light-text);
+  height: 120px;
+  width: 120px;
+  font-size: 2.5rem;
+}
+
+.avatar-text-sm {
+  background-color: var(--text-badge-color);
+  color: var(--light-text);
+  height: 80px;
+  width: 80px;
+  font-size: 1.5rem;
+}
+
+.avatar-text-xs {
+  background-color: var(--text-badge-color);
+  color: var(--light-text);
+  height: 50px;
+  width: 50px;
+  font-size: 1rem;
+}
+
+.avatar {
+  margin: 0.8rem;
+}
