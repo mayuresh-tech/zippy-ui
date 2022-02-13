@@ -55,6 +55,11 @@
 
   --color-white: #fff;
 
+  --btn-color-primary: #e63961;
+  --btn-color-secondary: #d8d8d8;
+  --btn-color-secondary-text: #3f4049;
+  --btn-color-disabled-toggle: #ccc;
+
   --overlay-color: rgba(88, 88, 88, 0.7);
 
   --input-err: red;
