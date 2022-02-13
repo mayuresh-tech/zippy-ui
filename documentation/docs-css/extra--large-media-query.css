@@ -209,6 +209,8 @@ img {
   margin: 1.5rem 2.5rem;
   padding: 0.5rem;
   border: #e6e6e6 2px solid;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .code-example {
@@ -237,3 +239,7 @@ img {
   flex-flow: row wrap;
 }
 /* End of Avatar Section Design */
+
+/* Input section design */
+
+/* End of Input section design */
