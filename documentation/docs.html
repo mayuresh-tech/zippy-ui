@@ -212,7 +212,7 @@
                     avatar-xs-size (e.g. class="avatar avatar-lg-size")
                 </h5>
                 <h5>Don't forget to add Responsive Image class names for img element. </h5>
-                <div class="example-box">
+                <div class="example-box no-inline">
                     <div class="avatar">
                         <img class="avatar-image-lg" src="../components/assets/avatar2.jpg">
                     </div>
@@ -450,6 +450,121 @@
                 <div class="code-example">
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=htmlmixed&width=920.25&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=133%25&si=false&es=1x&wm=false&code=%253Cimg%2520class%253D%2522responsive-img%2520round-img%2522%2520src%253D%2522..%252Fcomponents%252Fassets%252Fresponsive.jpg%2522%253E"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <section id="input-section">
+                <h1>Form Components</h1>
+                <h3>There are form fields listed below and form validation is also styled.</h3>
+                <h2>Example of Active form fields</h2>
+                <h5>Add form-label class to labels and form-field for input element, form-field, form-textarea for
+                    textarea element(mulitple lines input).</h5>
+                <h5> Add form-label-required-field class to labels if the field is required, it will show star on the
+                    field</h5>
+                <div class="example-box form-elements">
+                    <label class="form-input-label required">Email address</label>
+                    <input type="email" class="form-input-field" placeholder="user@example.com" required>
+
+                    <label class="form-input-label">Example Textarea</label>
+                    <textarea type="email" class="form-input-field form-input-textarea"
+                        placeholder="start writing here.." rows="3"></textarea>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=htmlmixed&width=920.25&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=133%25&si=false&es=1x&wm=false&code=%253Clabel%2520class%253D%2522form-input-label%2520required%2522%253EEmail%2520address%253C%252Flabel%253E%250A%253Cinput%250A%2520%2520type%253D%2522email%2522%250A%2520%2520class%253D%2522form-input-field%2522%250A%2520%2520placeholder%253D%2522user%2540example.com%2522%250A%2520%2520required%250A%252F%253E%250A%250A%253Clabel%2520class%253D%2522form-input-label%2522%253EExample%2520Textarea%253C%252Flabel%253E%250A%253Ctextarea%250A%2520%2520type%253D%2522email%2522%250A%2520%2520class%253D%2522form-input-field%2520form-input-textarea%2522%250A%2520%2520placeholder%253D%2522start%2520writing%2520here..%2522%250A%2520%2520rows%253D%25223%2522%253E%250A%253C%252Ftextarea%253E"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Example of Disabled/Read only form fields</h2>
+                <h5>Add disabled attribute to your form element to make them disable. No need to add any extra class.
+                </h5>
+                <h5>Add readonly attribute to your form element to make them read-only. No need to add any extra class.
+                </h5>
+                <div class="example-box">
+                    <input type="email" class="form-input-field" disabled="disabled" placeholder="Disabled input"
+                        required>
+                    <input type="email" class="form-input-field" disabled readonly placeholder="Disabled read-only"
+                        required>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=htmlmixed&width=920.25&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=133%25&si=false&es=1x&wm=false&code=%253Cinput%250A%2520%2520type%253D%2522email%2522%250A%2520%2520class%253D%2522form-input-field%2522%250A%2520%2520disabled%253D%2522disabled%2522%250A%2520%2520placeholder%253D%2522Disabled%2520input%2522%250A%2520%2520required%250A%252F%253E%250A%253Cinput%250A%2520%2520type%253D%2522email%2522%250A%2520%2520class%253D%2522form-input-field%2522%250A%2520%2520disabled%250A%2520%2520readonly%250A%2520%2520placeholder%253D%2522Disabled%2520read-only%2522%250A%2520%2520required%250A%252F%253E"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Example of Read only plain text form field</h2>
+                <h5>Add read-only attribute to your form element to make them read-only. Add form-field-plain-text class
+                    to form field element.</h5>
+                <div class="example-box no-inline">
+                    <input type="email" class="form-input-field plain-text" placeholder="user@example.com" required>
+
+                    <label class="form-input-label required">Example Password</label>
+                    <input type="password" class="form-input-field" placeholder="Enter password" required>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=htmlmixed&width=920.25&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=133%25&si=false&es=1x&wm=false&code=%253Cinput%250A%2520%2520type%253D%2522email%2522%250A%2520%2520class%253D%2522form-input-field%2520plain-text%2522%250A%2520%2520placeholder%253D%2522user%2540example.com%2522%250A%2520%2520required%250A%252F%253E%250A%250A%253Clabel%2520class%253D%2522form-input-label%2520required%2522%253EExample%2520Password%253C%252Flabel%253E%250A%253Cinput%250A%2520%2520type%253D%2522password%2522%250A%2520%2520class%253D%2522form-input-field%2522%250A%2520%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520required%250A%252F%253E"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Example of Form Validation</h2>
+                <h5>Below is the form validation example. You can have error message and check passed message on field
+                    level. For html and class, please check below html and for functionality, JavaScript code.</h5>
+                <div class="example-box">
+                    <form class="validate">
+                        <label class="form-input-label required">Email address</label>
+                        <input id="email-valid" type="text" class="form-input-field" placeholder="user@example.com"
+                            required>
+                        <span class="validation-errors error-msg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512">
+                                <path
+                                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
+                            </svg>
+                            Please enter correct email!
+                        </span>
+                        <label class="form-input-label required">Example Password</label>
+                        <input id="password-valid" type="password" class="form-input-field" placeholder="Enter password"
+                            required>
+                        <span class="validation-errors error-msg"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512">
+                                <path
+                                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
+                            </svg>
+                            Password should be at least 8 characters
+                        </span>
+                        <div class="form-valid-box">
+                            <div>
+                                <input id="checkbox-valid" type="checkbox" class="checbox-terms">
+                                <label class="form-input-label required">I agree to Terms and Conditions</label>
+                            </div>
+                            <span class="validation-errors error-msg"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
+                                </svg>
+                                Please check the box
+                            </span>
+                            <button id="submit-btn" type="button" class="btn-submit btn-solid-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=javascript&width=920.25&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=133%25&si=false&es=1x&wm=false&code=%253Cform%2520class%253D%2522validate%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522form-input-label%2520required%2522%253EEmail%2520address%253C%252Flabel%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520id%253D%2522email-valid%2522%250A%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520class%253D%2522form-input-field%2522%250A%2520%2520%2520%2520placeholder%253D%2522user%2540example.com%2522%250A%2520%2520%2520%2520required%250A%2520%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522validation-errors%2520error-msg%2522%250A%2520%2520%2520%2520%253E%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M256%25200C114.6%25200%25200%2520114.6%25200%2520256s114.6%2520256%2520256%2520256s256-114.6%2520256-256S397.4%25200%2520256%25200zM232%2520152C232%2520138.8%2520242.8%2520128%2520256%2520128s24%252010.75%252024%252024v128c0%252013.25-10.75%252024-24%252024S232%2520293.3%2520232%2520280V152zM256%2520400c-17.36%25200-31.44-14.08-31.44-31.44c0-17.36%252014.07-31.44%252031.44-31.44s31.44%252014.08%252031.44%252031.44C287.4%2520385.9%2520273.4%2520400%2520256%2520400z%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520Please%2520enter%2520correct%2520email%21%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Clabel%2520class%253D%2522form-input-label%2520required%2522%253EExample%2520Password%253C%252Flabel%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520id%253D%2522password-valid%2522%250A%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520class%253D%2522form-input-field%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520required%250A%2520%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522validation-errors%2520error-msg%2522%250A%2520%2520%2520%2520%253E%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M256%25200C114.6%25200%25200%2520114.6%25200%2520256s114.6%2520256%2520256%2520256s256-114.6%2520256-256S397.4%25200%2520256%25200zM232%2520152C232%2520138.8%2520242.8%2520128%2520256%2520128s24%252010.75%252024%252024v128c0%252013.25-10.75%252024-24%252024S232%2520293.3%2520232%2520280V152zM256%2520400c-17.36%25200-31.44-14.08-31.44-31.44c0-17.36%252014.07-31.44%252031.44-31.44s31.44%252014.08%252031.44%252031.44C287.4%2520385.9%2520273.4%2520400%2520256%2520400z%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520Password%2520should%2520be%2520at%2520least%25208%2520characters%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522form-valid-box%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522checkbox-valid%2522%2520type%253D%2522checkbox%2522%2520class%253D%2522checbox-terms%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-input-label%2520required%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253EI%2520agree%2520to%2520Terms%2520and%2520Conditions%253C%252Flabel%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522validation-errors%2520error-msg%2522%250A%2520%2520%2520%2520%2520%2520%253E%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M256%25200C114.6%25200%25200%2520114.6%25200%2520256s114.6%2520256%2520256%2520256s256-114.6%2520256-256S397.4%25200%2520256%25200zM232%2520152C232%2520138.8%2520242.8%2520128%2520256%2520128s24%252010.75%252024%252024v128c0%252013.25-10.75%252024-24%252024S232%2520293.3%2520232%2520280V152zM256%2520400c-17.36%25200-31.44-14.08-31.44-31.44c0-17.36%252014.07-31.44%252031.44-31.44s31.44%252014.08%252031.44%252031.44C287.4%2520385.9%2520273.4%2520400%2520256%2520400z%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520Please%2520check%2520the%2520box%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522submit-btn%2522%2520type%253D%2522button%2522%2520class%253D%2522btn-submit%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520Submit%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+                        style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Javascript</h2>
+                <div class="code-example">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=javascript&width=920.25&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=133%25&si=false&es=1x&wm=false&code=var%2520inputEmail%2520%253D%2520document.getElementById%28%2522email-valid%2522%29%253B%250Avar%2520inputPassword%2520%253D%2520document.getElementById%28%2522password-valid%2522%29%253B%250Avar%2520inputCheckBox%2520%253D%2520document.getElementById%28%2522checkbox-valid%2522%29%253B%250Aconst%2520errorMsg%2520%253D%2520document.getElementsByClassName%28%2522error-msg%2522%29%253B%250Avar%2520submitBtn%2520%253D%2520document.getElementById%28%2522submit-btn%2522%29%253B%250A%250AerrorMsg%255B0%255D.style.display%2520%253D%2520%2522none%2522%253B%250AerrorMsg%255B1%255D.style.display%2520%253D%2520%2522none%2522%253B%250AerrorMsg%255B2%255D.style.display%2520%253D%2520%2522none%2522%253B%250A%250AsubmitBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520checkValidEmail%28%29%253B%250A%2520%2520checkValidPassword%28%29%253B%250A%2520%2520checkCheckBox%28%29%253B%250A%257D%29%253B%250A%250Afunction%2520checkCheckBox%28%29%2520%257B%250A%2520%2520if%2520%28%21inputCheckBox.checked%29%2520%257B%250A%2520%2520%2520%2520errorMsg%255B2%255D.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520errorMsg%255B2%255D.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%250A%257D%250A%250Afunction%2520checkValidPassword%28%29%2520%257B%250A%2520%2520if%2520%28inputPassword.value.length%2520%253C%25208%29%2520%257B%250A%2520%2520%2520%2520errorMsg%255B1%255D.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520errorMsg%255B1%255D.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%250A%257D%250A%250Afunction%2520checkValidEmail%28%29%2520%257B%250A%2520%2520var%2520emailPattern%2520%253D%2520%252F%255E%255Cw%252B%2540%255Ba-zA-Z_%255D%252B%253F%255C.%255Ba-zA-Z%255D%257B2%252C3%257D%2524%252F%253B%250A%2520%2520console.log%28inputEmail.value%29%253B%250A%2520%2520console.log%28emailPattern.test%28inputEmail.value%29%29%253B%250A%2520%2520if%2520%28%21emailPattern.test%28inputEmail.value%29%29%2520%257B%250A%2520%2520%2520%2520errorMsg%255B0%255D.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520errorMsg%255B0%255D.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%250A%257D"
                         style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>

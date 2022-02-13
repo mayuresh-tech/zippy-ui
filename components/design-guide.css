@@ -60,6 +60,13 @@
   --btn-color-secondary-text: #3f4049;
   --btn-color-disabled-toggle: #ccc;
 
+  --label-required-color: #c3073f;
+
+  --input-border-enabled: #d4d5d9;
+  --input-border-focus: #c3073f;
+  --input-text-color: #3e4152;
+  --input-disabled-color: #e9ecef;
+
   --overlay-color: rgba(88, 88, 88, 0.7);
 
   --input-err: red;
