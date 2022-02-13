@@ -219,6 +219,7 @@
 }
 
 .btn-solid-floating {
+    border: none;
   cursor: pointer;
   margin-bottom: 0.5rem;
   background-color: var(--btn-color-primary);
