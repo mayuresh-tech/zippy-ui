@@ -66,3 +66,22 @@
     display: inline-block;
     margin-right: 1rem;
 }
+
+.notification {
+    border: 1px black solid;
+    padding: 1rem;
+}
+
+.product-starting {
+    font-size: 1rem;
+}
+
+.product-shop-now {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.product-time {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
