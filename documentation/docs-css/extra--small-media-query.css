@@ -15,13 +15,6 @@ body {
   color: var(--primary-light-bg-color);
 }
 
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-  object-fit: cover;
-  object-fit: top center;
-}
-
 :root {
   --primary-light-font-color: #c3073f;
   --primary-light-bg-color: #696b79;
