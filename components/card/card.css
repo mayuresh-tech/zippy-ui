@@ -125,7 +125,7 @@
 .card-container-vertical-overlay {
   margin: 1rem 1rem;
   padding: 0.5rem;
-  border: #e6e6e6 2px solid;
+  border: var(--overlay-color) 2px solid;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
@@ -169,10 +169,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-}
-
-.top-details svg {
-  fill: var();
 }
 
 .top-details .product-heading {
