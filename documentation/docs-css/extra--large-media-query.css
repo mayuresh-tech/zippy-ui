@@ -25,12 +25,6 @@ body {
   color: var(--primary-light-bg-color);
 }
 
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-  object-fit: cover;
-  object-fit: top center;
-}
 /* End of Root settings */
 
 /* Button Settings */
@@ -239,7 +233,3 @@ img {
   flex-flow: row wrap;
 }
 /* End of Avatar Section Design */
-
-/* Input section design */
-
-/* End of Input section design */

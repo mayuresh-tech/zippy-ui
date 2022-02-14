@@ -1,0 +1,194 @@
+@import "../design-guide.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.card-container-horizontal {
+  height: 50%;
+  margin: 1.5rem 2.5rem;
+  padding: 0.5rem;
+  border: #e6e6e6 2px solid;
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.badge-container {
+  width: 7rem;
+  height: auto;
+  position: relative;
+}
+
+.badge-container-vertical {
+  position: relative;
+}
+
+.details-container {
+  flex-flow: column wrap;
+  margin-left: 1rem;
+}
+
+.product-img {
+  height: 11rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+}
+
+.product-img-full {
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+
+.product-img-vertical {
+  height: 15rem;
+  width: 15rem;
+  z-index: 0;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.small-img {
+  height: 12rem;
+  width: 12rem;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.img-badge {
+  padding: 0.1rem 0.3rem;
+  background-color: var(--text-badge-color);
+  color: var(--color-white);
+  position: absolute;
+  top: 0.1rem;
+  left: 0rem;
+  z-index: 2;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.close-badge {
+  cursor: pointer;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.5rem;
+  z-index: 2;
+  fill: var(--text-badge-color);
+  height: 1rem;
+  width: 1rem;
+}
+
+.product-heading {
+  margin: 0.7rem 0rem 0.5rem 0rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.product-short-description {
+  margin: 0.2rem 0rem 0.7rem 0rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.card-container-horizontal .no-bg.btn-icon-text-primary,
+.card-container-horizontal .no-bg.btn-icon-text-outline {
+  margin: 1rem 0.5rem 1rem 0rem;
+}
+
+.product-soldby {
+  margin: 0.2rem 0.5rem 1rem 0rem;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.product-description {
+  margin: 0.2rem 0.5rem 0rem 0rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-container-vertical {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  border: #e6e6e6 2px solid;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-container-vertical-overlay {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  border: var(--overlay-color) 2px solid;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.overlay {
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--overlay-color);
+}
+
+.overlay-text {
+  padding: 0.2rem 0.5rem;
+  background-color: var(--input-text-color);
+  z-index: 10;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: var(--color-white);
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.con {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.top-details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.top-details .product-heading {
+  font-size: 1.2rem;
+  margin: 1.3rem 0rem 0.5rem 0rem;
+}
+
+.card-container-vertical .product-short-description {
+  margin-top: 0rem;
+  font-size: 0.9rem;
+}
+
+.price .cut-price {
+  text-decoration: line-through;
+}
+
+.price .discount {
+  color: var(--text-badge-color);
+}
+
+.card-container-vertical .no-bg.btn-icon-text-primary {
+  margin: 1rem 0rem 1rem 0rem;
+}
