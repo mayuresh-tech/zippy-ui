@@ -294,3 +294,12 @@ button#burger {
 }
 /* End of Avatar Section Design */
 
+/* Lists Section Design */
+#list-section .example-box {
+  padding: 1rem;
+}
+
+#list-section ul, #list-section ol {
+  margin: 0.7rem 1.5rem;
+}
+/* End of Lists Section Design */
