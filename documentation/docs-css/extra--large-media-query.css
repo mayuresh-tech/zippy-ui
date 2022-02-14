@@ -244,3 +244,27 @@ body {
   margin: 0.7rem 1.5rem;
 }
 /* End of Lists Section Design */
+
+/* Typography Section Design */
+.example-box.para {
+  flex-flow: column wrap;
+}
+
+.example-box.para p {
+  margin: 1rem;
+  display: inline;
+}
+
+p.p-large.text-right {
+  display: inline;
+}
+
+p.p-large.text-left {
+  display: inline;
+}
+
+.example-box.para.black p {
+  margin: 0.5rem;
+  color: var(--primary-text);
+}
+/* End of Typography Section Design */
