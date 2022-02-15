@@ -46,61 +46,61 @@ p.p {
 }
 
 .p-large {
-    font-size: 1.5rem;
-    font-weight: 100;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
 .p-medium {
-    font-size: 1.25rem;
-    font-weight: 100;
+  font-size: 1.25rem;
+  font-weight: 100;
 }
 
 .p-small {
-    font-size: 1rem;
-    font-weight: 100;
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 .p-xsmall {
-    font-size: 0.8;
-    font-weight: 100;
+  font-size: 0.8;
+  font-weight: 100;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .mark-text {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .text-highlight {
-    background-color: var(--overlay-color);
+  background-color: var(--overlay-color);
 }
 
 p.text-bold-weight {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 p.text-regular-weight {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 p.text-light-weight {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 p.p.text-primary-color.color {
-    color: var(--btn-color-primary);
+  color: var(--btn-color-primary);
 }
 
 p.p.text-secondary-color.color {
-    color: var(--alert-secondary-text);
+  color: var(--alert-secondary-text);
 }

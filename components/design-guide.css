@@ -69,6 +69,8 @@
 
   --overlay-color: #eaeaec;
 
+  --rating-color: #ffb400;
+
   --input-err: red;
   --input-success: green;
 }

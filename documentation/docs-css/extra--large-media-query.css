@@ -234,13 +234,13 @@ body {
 }
 /* End of Avatar Section Design */
 
-
 /* Lists Section Design */
 #list-section .example-box {
   padding: 1rem;
 }
 
-#list-section ul, #list-section ol {
+#list-section ul,
+#list-section ol {
   margin: 0.7rem 1.5rem;
 }
 /* End of Lists Section Design */
@@ -268,3 +268,9 @@ p.p-large.text-left {
   color: var(--primary-text);
 }
 /* End of Typography Section Design */
+
+/* Rating Section Design */
+.display-rating {
+  margin: 0rem 1rem;
+}
+/* End of Rating Section Design */
