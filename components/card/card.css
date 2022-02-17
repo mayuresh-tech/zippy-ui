@@ -122,6 +122,30 @@
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+.card-container-text-horizontal {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  border: #e6e6e6 2px solid;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-container-text-vertical {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  border: #e6e6e6 2px solid;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
 .card-container-vertical-overlay {
   margin: 1rem 1rem;
   padding: 0.5rem;
@@ -191,4 +215,22 @@
 
 .card-container-vertical .no-bg.btn-icon-text-primary {
   margin: 1rem 0rem 1rem 0rem;
+}
+
+.text-card-btn {
+  padding: 0.4rem 0.7rem;
+  font-size: 1.2rem;
+}
+
+.card-container-text-horizontal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.card-container-text-vertical {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  width: 40%;
 }
