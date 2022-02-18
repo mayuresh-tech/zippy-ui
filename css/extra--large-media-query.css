@@ -187,7 +187,7 @@ a:active {
 iframe {
   border: var(--primary-light-color) 1px solid;
   width: 100%;
-  min-height: 300px;
+  min-height: 19rem;
   max-height: auto;
   border:0; transform: 
   scale(1); 
