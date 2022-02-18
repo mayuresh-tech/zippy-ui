@@ -36,7 +36,13 @@ body {
 /* End of Button Settings */
 
 /* Navigation Bar  */
+header {
+  position: relative;
+}
+
 .nav-box {
+  position: fixed;
+  top: 0;
   display: flex;
   flex-flow: row wrap;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
@@ -44,6 +50,7 @@ body {
   padding: 1rem 4rem;
   z-index: 100;
   width: 100%;
+  background-color: var(--primary-font-color);
 }
 
 #nav-section {
@@ -108,16 +115,17 @@ a:active {
 
 /* Side layout for Components List */
 #side-container {
-  height: 100vh;
-  position: relative;
+  position: fixed;
+  height: 150vh;
+  top: 5.5rem;
   width: 18%;
   z-index: 10;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-} 
+}
 
-#opening-bar {
-  
+#dropdown-list {
+  display: none;
 }
 
 #opening-bar .down-arrow {
