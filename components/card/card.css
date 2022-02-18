@@ -1,9 +1,5 @@
 @import "../design-guide.css";
 
-* {
-  box-sizing: border-box;
-}
-
 .card-container-horizontal {
   height: 50%;
   margin: 1.5rem 2.5rem;

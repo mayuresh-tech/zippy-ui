@@ -1,9 +1,5 @@
 @import "../design-guide.css";
 
-* {
-  box-sizing: border-box;
-}
-
 h1#h1 {
   font-size: 3rem;
   margin: 1rem;

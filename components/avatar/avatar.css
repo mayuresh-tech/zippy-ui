@@ -1,9 +1,5 @@
 @import "../design-guide.css";
 
-* {
-  box-sizing: border-box;
-}
-
 .avatar-image-lg {
   max-inline-size: 100%;
   block-size: auto;

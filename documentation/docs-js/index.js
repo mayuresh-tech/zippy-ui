@@ -12,6 +12,16 @@ var inputCheckBox = document.getElementById("checkbox-valid");
 const errorMsg = document.getElementsByClassName("error-msg");
 var submitBtn = document.getElementById("submit-btn");
 
+var listBtns = document.querySelectorAll("#dropdown-list a");
+
+listBtns.forEach(element => {
+  element.addEventListener("click", () => {
+    dropdownListExpanded = false;
+    dropDownList.style.display = "none";
+    dropDownBtn.classList.add("downside-btn");
+  });
+});
+
 errorMsg[0].style.display = "none";
 errorMsg[1].style.display = "none";
 errorMsg[2].style.display = "none";
