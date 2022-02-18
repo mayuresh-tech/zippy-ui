@@ -22,13 +22,16 @@
         <nav class="nav-box">
             <div id="nav-section">
                 <div id="logo">
-                    <img id="main-logo" width="30px" height="30px" src="favicon.svg" alt="Logo" />
-                    <div>Zippy UI</div>
+                    <a href="./index.html">
+                        <img id="main-logo" width="30px" height="30px" src="favicon.svg" alt="Logo" />
+                        <div>Zippy UI</div>
+                    </a>
                 </div>
 
                 <div id="nav-links">
-                    <button class="no-bg hov">Home</button>
-                    <button class="no-bg hov"><a href="documentation/docs.html">Documentation</a></button>
+                    <button class="no-bg hov"><a href="./index.html">Home</a></button>
+                    <button class="no-bg hov"><a href="documentation/docs.html"
+                            target="_blank">Documentation</a></button>
                 </div>
             </div>
 
@@ -56,19 +59,25 @@
                         </div>
                     </li>
                     <li class="nav-link-box">
-                        Home
+                        <a href="./index.html">Home</a>
                     </li>
                     <li class="nav-link-box">
-                        <a href="documentation/docs.html">Documentation</a>
+                        <a href="documentation/docs.html" target="_blank">Documentation</a>
                     </li>
                 </ul>
             </div>
 
             <!-- Social links on Navigation Bar -->
             <div id="social-links">
-                <button class="no-bg hov"><i class="fa-brands fa-github"></i></button>
-                <button class="no-bg hov"><i class="fa-brands fa-twitter"></i></button>
-                <button class="no-bg hov"><i class="fa-brands fa-linkedin"></i></button>
+                <button class="no-bg hov"
+                    onclick="javascript:window.open('https://github.com/mayuresh-tech', '_blank');"><i
+                        class="fa-brands fa-github"></i></button>
+                <button class="no-bg hov"
+                    onclick="javascript:window.open('https://twitter.com/its__root', '_blank');"><i
+                        class="fa-brands fa-twitter"></i></button>
+                <button class="no-bg hov"
+                    onclick="javascript:window.open('https://www.linkedin.com/in/mayuresh-mitkari/', '_blank');"><i
+                        class="fa-brands fa-linkedin"></i></button>
                 <button class="no-bg hov"><i class="fa-solid fa-circle-half-stroke"></i></button>
             </div>
         </nav>
@@ -84,8 +93,10 @@
                     user-friendly and
                     customizable. Spend less time in designing and concentrate more on logic without hustling on UI.</p>
                 <div id="btn-container">
-                    <button class="no-bg installation-btn">Installation</button>
-                    <button class="no-bg documentation-btn">Documentation</button>
+                    <button class="no-bg installation-btn" onclick="location.href='./index.html';">Installation</button>
+                    <button class="no-bg documentation-btn"
+                        onclick="javascript:window.open('./documentation/docs.html', '_blank');">Documentation</button>
+
                 </div>
             </div>
             <div id="child"><img src="main-img.svg"></div>
@@ -95,11 +106,12 @@
                     document. So that you can style your component by just adding class names to you html elements.</p>
                 <p id="long-description" class="small-text">To know more about the styled components, their variations,
                     read the documentation</p>
-                <button class="no-bg documentation-btn">Documentation</button>
+                <button class="no-bg documentation-btn"
+                    onclick="javascript:window.open('./documentation/docs.html', '_blank');">Documentation</button>
             </div>
             <div id="child">
                 <code>
-                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&amp;t=one-light&amp;wt=sharp&amp;l=htmlmixed&amp;ds=true&amp;dsyoff=20px&amp;dsblur=68px&amp;wc=true&amp;wa=true&amp;pv=0px&amp;ph=0px&amp;ln=false&amp;fl=1&amp;fm=Hack&amp;fs=14px&amp;lh=133%25&amp;si=false&amp;es=2x&amp;wm=false&amp;code=%253C%21--%2520For%2520Version%25201%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i.css%2522%253E%250A%250A%253C%21--%2520For%2520Version%25202%253A%2520Light%2520Theme%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i-v2.css%2522%253E%250A%250A%253C%21--%2520For%2520Version%25202%253A%2520Dark%2520Theme%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i-v2-dark-theme.css%2522%253E" style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&amp;t=one-light&amp;wt=sharp&amp;l=htmlmixed&amp;ds=true&amp;dsyoff=20px&amp;dsblur=68px&amp;wc=true&amp;wa=true&amp;pv=0px&amp;ph=0px&amp;ln=false&amp;fl=1&amp;fm=Hack&amp;fs=14px&amp;lh=133%25&amp;si=false&amp;es=2x&amp;wm=false&amp;code=%253C%21--%2520For%2520Version%25201%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i.css%2522%253E%250A%250A%253C%21--%2520For%2520Version%25202%253A%2520Light%2520Theme%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i-v2.css%2522%253E%250A%250A%253C%21--%2520For%2520Version%25202%253A%2520Dark%2520Theme%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i-v2-dark-theme.css%2522%253E" sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </code>
             </div>

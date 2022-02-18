@@ -23,14 +23,8 @@
 }
 
 :root {
-  --primary-color-darker: rgba(206, 122, 18);
-  --primary-color: rgba(226, 132, 19); /*#e28413*/
-  --primary-color-lighter: rgba(235, 143, 30);
-
-  --secondary-color: rgb(128, 5, 93); /*#80055d*/
-
   --primary-text: rgb(46, 46, 46);
-  --secondary-text: rgb(73, 73, 73); /*#737373*/
+  --secondary-text: rgb(73, 73, 73);
   --light-text: rgb(241, 241, 241);
   --light-bg: rgb(252, 252, 252);
   --gray-bg: #d4d4d4;
@@ -71,7 +65,4 @@
   --card-border-color: #e6e6e6;
 
   --rating-color: #ffb400;
-
-  --input-err: red;
-  --input-success: green;
 }

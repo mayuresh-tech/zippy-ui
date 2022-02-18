@@ -1,9 +1,5 @@
 @import "../design-guide.css";
 
-* {
-  box-sizing: border-box;
-}
-
 .dark-circle {
     list-style: disc;
     line-height: 1.5;
@@ -21,11 +17,6 @@
 
 .numbers {
     list-style: decimal;
-    line-height: 1.5;
-}
-
-.reverse-alphabets {
-    list-style: lower-alpha;
     line-height: 1.5;
 }
 

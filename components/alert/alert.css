@@ -1,9 +1,5 @@
 @import "../design-guide.css";
 
-* {
-  box-sizing: border-box;
-}
-
 .alert-box {
   padding: 1.2rem 1.4rem;
   max-width: 100rem;

@@ -1,9 +1,5 @@
 @import "../design-guide.css";
 
-* {
-  box-sizing: border-box;
-}
-
 .no-bg {
   background: transparent;
   border: none;
