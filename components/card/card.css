@@ -188,7 +188,7 @@
 .top-details {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .top-details .product-heading {
