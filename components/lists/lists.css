@@ -1,0 +1,78 @@
+@import "../design-guide.css";
+
+.dark-circle {
+    list-style: disc;
+    line-height: 1.5;
+}
+
+.dark-square {
+    list-style: square;
+    line-height: 1.5;
+}
+
+.circle {
+    list-style: circle;
+    line-height: 1.5;
+}
+
+.numbers {
+    list-style: decimal;
+    line-height: 1.5;
+}
+
+.alphabets {
+    list-style: lower-alpha;
+    line-height: 1.5;
+}
+
+.roman {
+    list-style: lower-roman;
+    line-height: 1.5;
+}
+
+.capital-alphabets {
+    list-style: upper-alpha;
+    line-height: 1.5;
+}
+
+.capital-roman {
+    list-style: upper-roman;
+    line-height: 1.5;
+}
+
+.style-none {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.style-inline {
+    list-style: none;
+    line-height: 1.5;
+}
+.style-inline {
+    list-style: none;
+    line-height: 1.5;
+}
+.style-inline li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.notification {
+    border: 1px black solid;
+    padding: 1rem;
+}
+
+.product-starting {
+    font-size: 1rem;
+}
+
+.product-shop-now {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.product-time {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}

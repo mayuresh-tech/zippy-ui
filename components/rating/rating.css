@@ -1,0 +1,32 @@
+@import "../design-guide.css";
+
+.checked {
+  color: var(--rating-color);
+}
+
+.star {
+  margin: 0.5rem;
+}
+
+.display-rating {
+  background-color: var(--overlay-color);
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.display-rating .star {
+  margin: 0.1rem;
+}
+
+.ratings-box {
+  padding: 1rem 1.5rem;
+}
+
+.ratings-box .p-large {
+  margin: 0rem 1rem 0.5rem 0rem;
+}
+
+.star-box .star:hover {
+  cursor: pointer;
+  color: var(--rating-color);
+}

@@ -1,0 +1,5 @@
+@import "../design-guide.css";
+
+#slider:hover {
+  opacity: 1;
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.no-bg {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#inner-code {
+  font-size: 1rem;
+}
+
+:root {
+  --primary-text: rgb(46, 46, 46);
+  --secondary-text: rgb(73, 73, 73);
+  --light-text: rgb(241, 241, 241);
+  --light-bg: rgb(252, 252, 252);
+  --gray-bg: #d4d4d4;
+
+  --alert-primary-text: #29438b;
+  --alert-primary-bg: #7fd2e6;
+  --alert-secondary-bg: #eaeaec;
+  --alert-secondary-text: #696b79;
+  --alert-success-bg: #84f1c9;
+  --alert-success-text: #1b7052;
+  --alert-danger-bg: #fcc5c5;
+  --alert-danger-text: #dc3545;
+  --alert-warning-text: #ff9204;
+  --alert-warning-bg: #ffe7c5;
+
+  --text-badge-color: #2565c7;
+
+  --online-color: #1b7052;
+  --busy-color: #dc3545;
+  --away-color: #ff9204;
+  --offline-color: #696b79;
+
+  --color-white: #fff;
+
+  --btn-color-primary: #2565c7;
+  --btn-color-secondary: #d8d8d8;
+  --btn-color-secondary-text: #3f4049;
+  --btn-color-disabled-toggle: #ccc;
+
+  --label-required-color: #c3073f;
+
+  --input-border-enabled: #d4d5d9;
+  --input-border-focus: #c3073f;
+  --input-text-color: #3e4152;
+  --input-disabled-color: #e9ecef;
+
+  --overlay-color: #eaeaec;
+  --card-border-color: #e6e6e6;
+
+  --rating-color: #ffb400;
+}

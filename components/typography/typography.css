@@ -1,0 +1,102 @@
+@import "../design-guide.css";
+
+h1#h1 {
+  font-size: 3rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+h2#h2 {
+  font-size: 2.5rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+h3#h3 {
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+h4#h4 {
+  font-size: 1.75rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+h5#h5 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+h6#h6 {
+  font-size: 1.25rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+p.p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.p-large {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.p-medium {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.p-small {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.p-xsmall {
+  font-size: 0.8;
+  font-weight: 100;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mark-text {
+  text-decoration: line-through;
+}
+
+.text-highlight {
+  background-color: var(--overlay-color);
+}
+
+p.text-bold-weight {
+  font-weight: 700;
+}
+
+p.text-regular-weight {
+  font-weight: 500;
+}
+
+p.text-light-weight {
+  font-weight: 300;
+}
+
+p.p.text-primary-color.color {
+  color: var(--btn-color-primary);
+}
+
+p.p.text-secondary-color.color {
+  color: var(--alert-secondary-text);
+}

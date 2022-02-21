@@ -1,0 +1,12 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@import "./alert/alert.css";
+@import "./avatar/avatar.css";
+@import "./badge/badge.css";
+@import "./button/button.css";
+@import "./image/image.css";
+@import "./input/input.css";
+@import "./card/card.css";
+@import "./lists/lists.css";
+@import "./rating/rating.css";
+@import "./typography/typography.css";
