@@ -297,10 +297,10 @@ a:active {
 
 .example-box.no-inline {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-content: flex-end;
-  align-items: flex-end;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .div.example-box:nth-child(6) {
@@ -338,3 +338,10 @@ p.p-large.text-left {
   display: inline;
 }
 /* End of Typography Section Design */
+
+/* Ratings section design */
+.display-rating {
+  text-align: center;
+  width: 40%;
+}
+/* End of Ratings section design */
