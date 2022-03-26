@@ -128,6 +128,9 @@
                 <li>
                     <a href="#modal-section">Modal</a>
                 </li>
+                <li>
+                    <a href="#toast-section">Toast</a>
+                </li>
             </ul>
 
             <ul id="dropdown-list-for-large-devices">
@@ -169,6 +172,9 @@
                 </li>
                 <li>
                     <a href="#modal-section">Modal</a>
+                </li>
+                <li>
+                    <a href="#toast-section">Toast</a>
                 </li>
             </ul>
         </div>
@@ -1370,6 +1376,86 @@
                 </iframe>
             </div>
         </section>
+
+        <section id="toast-section">
+            <h1>Toast</h1>
+            <h3>This component can be used for toast or snackbar component. Toast is mostly used to show feedback
+                message. Snackbar is to used show message that need user action</h3>
+            <h2>Example of Toast</h2>
+            <div class="example-box no-inline">
+                <div class="toast-box toast-primary">
+                    <p>Toast with link.<a class="text-link">Check out!</a></p>
+                    <button class="no-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="toast-box toast-success">
+                    <p>Success</p>
+                    <button class="no-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="toast-box toast-error">
+                    <p>Error!</p>
+                    <button class="no-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="toast-box toast-warning">
+                    <p>Warning!</p>
+                    <button class="no-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="code-example">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-box%2520toast-primary%2522%253E%250A%2520%2520%2520%253Cp%253EToast%2520with%2520link.%253Ca%2520class%253D%2522text-link%2522%253ECheck%2520out%21%253C%252Fa%253E%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522no-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520320%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M310.6%2520361.4c12.5%252012.5%252012.5%252032.75%25200%252045.25C304.4%2520412.9%2520296.2%2520416%2520288%2520416s-16.38-3.125-22.62-9.375L160%2520301.3L54.63%2520406.6C48.38%2520412.9%252040.19%2520416%252032%2520416S15.63%2520412.9%25209.375%2520406.6c-12.5-12.5-12.5-32.75%25200-45.25l105.4-105.4L9.375%2520150.6c-12.5-12.5-12.5-32.75%25200-45.25s32.75-12.5%252045.25%25200L160%2520210.8l105.4-105.4c12.5-12.5%252032.75-12.5%252045.25%25200s12.5%252032.75%25200%252045.25l-105.4%2520105.4L310.6%2520361.4z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast-box%2520toast-success%2522%253E%250A%2520%2520%2520%253Cp%253ESuccess%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522no-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520320%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M310.6%2520361.4c12.5%252012.5%252012.5%252032.75%25200%252045.25C304.4%2520412.9%2520296.2%2520416%2520288%2520416s-16.38-3.125-22.62-9.375L160%2520301.3L54.63%2520406.6C48.38%2520412.9%252040.19%2520416%252032%2520416S15.63%2520412.9%25209.375%2520406.6c-12.5-12.5-12.5-32.75%25200-45.25l105.4-105.4L9.375%2520150.6c-12.5-12.5-12.5-32.75%25200-45.25s32.75-12.5%252045.25%25200L160%2520210.8l105.4-105.4c12.5-12.5%252032.75-12.5%252045.25%25200s12.5%252032.75%25200%252045.25l-105.4%2520105.4L310.6%2520361.4z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast-box%2520toast-error%2522%253E%250A%2520%2520%2520%253Cp%253EError%21%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522no-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520320%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M310.6%2520361.4c12.5%252012.5%252012.5%252032.75%25200%252045.25C304.4%2520412.9%2520296.2%2520416%2520288%2520416s-16.38-3.125-22.62-9.375L160%2520301.3L54.63%2520406.6C48.38%2520412.9%252040.19%2520416%252032%2520416S15.63%2520412.9%25209.375%2520406.6c-12.5-12.5-12.5-32.75%25200-45.25l105.4-105.4L9.375%2520150.6c-12.5-12.5-12.5-32.75%25200-45.25s32.75-12.5%252045.25%25200L160%2520210.8l105.4-105.4c12.5-12.5%252032.75-12.5%252045.25%25200s12.5%252032.75%25200%252045.25l-105.4%2520105.4L310.6%2520361.4z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast-box%2520toast-warning%2522%253E%250A%2520%2520%2520%253Cp%253EWarning%21%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522no-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520320%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M310.6%2520361.4c12.5%252012.5%252012.5%252032.75%25200%252045.25C304.4%2520412.9%2520296.2%2520416%2520288%2520416s-16.38-3.125-22.62-9.375L160%2520301.3L54.63%2520406.6C48.38%2520412.9%252040.19%2520416%252032%2520416S15.63%2520412.9%25209.375%2520406.6c-12.5-12.5-12.5-32.75%25200-45.25l105.4-105.4L9.375%2520150.6c-12.5-12.5-12.5-32.75%25200-45.25s32.75-12.5%252045.25%25200L160%2520210.8l105.4-105.4c12.5-12.5%252032.75-12.5%252045.25%25200s12.5%252032.75%25200%252045.25l-105.4%2520105.4L310.6%2520361.4z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Live Demo</h2>
+            <div class="example-box no-inline">
+                <button class="btn-solid-primary success-toast">Click</button>
+            </div>
+            <h2>HTML</h2>
+            <div class="code-example">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-box%2520toast-success%2520show%2522%253E%250A%2520%2520%2520%253Cp%253ESuccess%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522no-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520320%2520512%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520d%253D%2522M310.6%2520361.4c12.5%252012.5%252012.5%252032.75%25200%252045.25C304.4%2520412.9%2520296.2%2520416%2520288%2520416s-16.38-3.125-22.62-9.375L160%2520301.3L54.63%2520406.6C48.38%2520412.9%252040.19%2520416%252032%2520416S15.63%2520412.9%25209.375%2520406.6c-12.5-12.5-12.5-32.75%25200-45.25l105.4-105.4L9.375%2520150.6c-12.5-12.5-12.5-32.75%25200-45.25s32.75-12.5%252045.25%25200L160%2520210.8l105.4-105.4c12.5-12.5%252032.75-12.5%252045.25%25200s12.5%252032.75%25200%252045.25l-105.4%2520105.4L310.6%2520361.4z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>CSS</h2>
+            <div class="code-example">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16.5px&lh=133%25&si=false&es=2x&wm=false&code=.toast-box.toast-success.show%2520%257B%250A%2520%2520position%253A%2520fixed%253B%250A%2520%2520top%253A%252012%2525%253B%250A%2520%2520right%253A%25205%2525%253B%250A%2520%2520width%253A%2520auto%253B%250A%2520%2520padding%253A%25201rem%25201rem%253B%250A%2520%2520display%253A%2520flex%253B%250A%2520%2520margin%253A%25200.8rem%253B%250A%2520%2520border-radius%253A%25200.4rem%253B%250A%2520%2520font-weight%253A%2520400%253B%250A%2520%2520justify-content%253A%2520space-between%253B%250A%2520%2520display%253A%2520none%253B%250A%257D%250A%250A.toast-success%2520%257B%250A%2520%2520color%253A%2520var%28--alert-success-text%29%253B%250A%2520%2520background-color%253A%2520var%28--alert-success-bg%29%253B%250A%2520%2520fill%253A%2520var%28--alert-success-text%29%253B%250A%257D"
+                    style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>JavaScript</h2>
+            <div class="code-example">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16.5px&lh=133%25&si=false&es=2x&wm=false&code=var%2520successToast%2520%253D%2520document.querySelector%28%2522.toast-box.toast-success.show%2522%29%253B%250Avar%2520successToastBtn%2520%253D%2520document.querySelector%28%2522.btn-solid-primary.success-toast%2522%29%253B%250Avar%2520successToastCloseBtn%2520%253D%2520document.querySelector%28%2522.toast-box.toast-success.show%2520button%2522%29%253B%250A%250AsuccessToastBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520successToast.style.display%2520%253D%2520%2522flex%2522%253B%250A%2520%2520%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520successToast.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520%257D%252C%25205000%29%253B%250A%257D%29%253B%250A%250AsuccessToastCloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520successToast.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%29%253B"
+                    style="width: 100%; max-height: auto; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -1389,6 +1475,16 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="toast-box toast-success show">
+        <p>Success</p>
+        <button class="no-bg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                    d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+            </svg>
+        </button>
     </div>
 
     <script src="docs-js/index.js" type="text/javascript"></script>

@@ -27,6 +27,21 @@ modalEnableBtn.addEventListener("click", () => {
   document.body.style.overflow = "hidden";
 });
 
+var successToast = document.querySelector(".toast-box.toast-success.show");
+var successToastBtn = document.querySelector(".btn-solid-primary.success-toast");
+var successToastCloseBtn = document.querySelector(".toast-box.toast-success.show button");
+
+successToastBtn.addEventListener("click", () => {
+    successToast.style.display = "flex";
+    setTimeout(() => {
+      successToast.style.display = "none";
+    }, 5000);
+});
+
+successToastCloseBtn.addEventListener("click", () => {
+  successToast.style.display = "none";
+});
+
 var listBtns = document.querySelectorAll("#dropdown-list a");
 
 listBtns.forEach(element => {
