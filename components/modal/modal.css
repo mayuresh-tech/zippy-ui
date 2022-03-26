@@ -1,0 +1,57 @@
+@import "../design-guide.css";
+
+.modal-box {
+  display: flex;
+  z-index: 999;
+  height: auto;
+  width: auto;
+  border: var(--card-border-color) 1px solid;
+  padding: 2rem;
+  background-color: var(--color-white);
+}
+
+.modal-container {
+  display: none;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.modal-box.modal-btn {
+  position: fixed;
+  align-items: center;
+  display: flex;
+  z-index: 999;
+  height: auto;
+  width: auto;
+  border: var(--card-border-color) 1px solid;
+  padding: 2rem;
+  background-color: var(--color-white);
+}
+
+.modal-box .modal-content {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.modal-box .modal-heading {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  font-weight: 500;
+  word-wrap: break-word;
+  color: var(--primary-text);
+}
+
+.modal-box .modal-description {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 300;
+  word-wrap: break-word;
+  color: var(--primary-text);
+}

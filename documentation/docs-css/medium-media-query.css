@@ -345,3 +345,14 @@ p.p-large.text-left {
   width: 20%;
 }
 /* End of Ratings section design */
+
+/* Navigation Section Design */
+#navigation-section .example-box.no-inline {
+  display: block;
+}
+
+#navigation-section li {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+/* End of Navigation Section Design */
