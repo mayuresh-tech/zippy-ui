@@ -10,3 +10,5 @@
 @import "./lists/lists.css";
 @import "./rating/rating.css";
 @import "./typography/typography.css";
+@import "./navigation/navigation.css";
+@import "./modal/modal.css";

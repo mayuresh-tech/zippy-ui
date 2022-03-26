@@ -12,6 +12,21 @@ var inputCheckBox = document.getElementById("checkbox-valid");
 const errorMsg = document.getElementsByClassName("error-msg");
 var submitBtn = document.getElementById("submit-btn");
 
+var modalBox = document.querySelector(".modal-container");
+var modalEnableBtn = document.querySelector("#modal-toggle");
+var modalCloseBtn = document.querySelector("#modal-close-btn");
+
+modalCloseBtn.addEventListener("click", () => {
+  modalBox.style = "visibility: hidden";
+  modalBox.style.display = "none";
+  document.body.style.overflow = "auto";
+});
+
+modalEnableBtn.addEventListener("click", () => {
+  modalBox.style = "visibility: visible; background: rgba(240, 248, 255, 0.58); display: flex; justify-content: center; align-items: center; align-content: center;";
+  document.body.style.overflow = "hidden";
+});
+
 var listBtns = document.querySelectorAll("#dropdown-list a");
 
 listBtns.forEach(element => {
