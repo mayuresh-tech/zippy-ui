@@ -1,0 +1,33 @@
+@import "../design-guide.css";
+
+.grid-50-50-layout-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.grid-3-layout-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .grid-50-50-layout-column {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .grid-3-layout-column {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        width: 100%;
+    }
+}
