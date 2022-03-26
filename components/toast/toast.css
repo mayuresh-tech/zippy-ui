@@ -1,0 +1,54 @@
+@import "../design-guide.css";
+
+.toast-box {
+  width: auto;
+  padding: 1rem 1rem;
+  display: flex;
+  margin: 0.8rem;
+  border-radius: 0.4rem;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.toast-box svg {
+  margin-left: 1rem;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.toast-primary {
+  color: var(--alert-primary-text);
+  background-color: var(--alert-primary-bg);
+}
+
+.toast-success {
+  color: var(--alert-success-text);
+  background-color: var(--alert-success-bg);
+  fill: var(--alert-success-text);
+}
+
+.toast-error {
+  color: var(--alert-danger-text);
+  background-color: var(--alert-danger-bg);
+  fill: var(--alert-danger-text);
+}
+
+.toast-warning {
+  color: var(--alert-warning-text);
+  background-color: var(--alert-warning-bg);
+  fill: var(--alert-warning-text);
+}
+
+.toast-box.toast-success.show {
+  position: fixed;
+  top: 12%;
+  right: 5%;
+  width: auto;
+  padding: 1rem 1rem;
+  display: flex;
+  margin: 0.8rem;
+  border-radius: 0.4rem;
+  font-weight: 400;
+  justify-content: space-between;
+  display: none;
+}
