@@ -2,7 +2,6 @@
 
 .modal-box {
   display: flex;
-  z-index: 999;
   height: auto;
   width: auto;
   border: var(--card-border-color) 1px solid;
